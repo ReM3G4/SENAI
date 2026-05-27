@@ -1,0 +1,1 @@
+Não fiz o 30 e o 22, não consegui entender matriz muito bem não

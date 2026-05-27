@@ -1,0 +1,32 @@
+nomes = []
+def cadastro():
+    nome = input("Qual nome cadastrar?: ")
+    nomes.append(nome)
+
+def lista():
+    print(nomes)
+
+
+def sair():
+    print("Você saiu.")
+
+
+while True:
+        print("\n === Menu interativo ===")
+        print("1 - Cadastrar usuário")
+        print("2 - Listar usuários")
+        print("3 - Sair")
+
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == "1":
+            cadastro()
+
+        elif opcao == "2":
+            lista()
+
+        elif opcao == "3":
+            sair()
+
+        else:
+            print("mensagem inválida")
